@@ -6,6 +6,8 @@ public class UserTest{
         System.out.print("Enter the number: ");
         int num = sc.nextInt();
 
-        MultiplicationTable.printTable(num);
+        SumOfNaturals s1 = new SumOfNaturals(num);
+        System.out.println("Sum of numbers: " + s1.getSumOfNumbers());
+
     }
 }
