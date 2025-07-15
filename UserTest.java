@@ -6,6 +6,6 @@ public class UserTest{
         System.out.print("Enter the number: ");
         int num = sc.nextInt();
 
-        System.out.println(EvenOrOdd.checkEvenOrOdd(num));
+        MultiplicationTable.printTable(num);
     }
 }
